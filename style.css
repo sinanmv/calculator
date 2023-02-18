@@ -1,0 +1,100 @@
+
+.header{
+   /* background: #80C683;*/
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 100px;
+  }
+  
+/* body{
+  background-color: rgb(155, 155, 155);
+} */
+.calculator
+{ 
+  padding: 20px;
+  border: solid;
+  width: 20%;
+  background-color: rgb(27, 27, 27);
+}
+  span{
+    color: #fff;
+    padding: 16px;
+  }
+  .padding-reset{
+    padding-left: 0;
+    padding-right: 0;
+    /*use for resing default padding for .row in input text section*/
+  }
+  .teaxtbox input[type="text"]{
+    width: 100%;
+    border: 1px solid #000000;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 12px;
+    background-color: #81ff75;
+    font-family: 'Orbitron', sans-serif;
+  }
+  .teaxtbox input[type="text"]:focus{
+    outline: none;
+  }
+  .commonbutton input[type="submit"]{
+    padding: 8px;
+    background: #3d3d3d;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 15px -10px white;
+    transition: 0.5s;
+  }
+  .commonbutton input[type="submit"]:hover
+  {
+    box-shadow: inset 0px 0px 15px -3px white;
+  }
+  .conflict input[type="submit"]{
+    padding: 8px;
+    background: #f2f2f2;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 5px;
+  }
+  .conflict input[type="submit"]:focus, .commonbutton input[type="submit"]:focus{
+    outline: none;
+  }
+  #del{
+    color: rgb(255, 123, 123);
+  }
+  
+  #equal{
+    background: #0e8113;
+    color: #fff;
+  }
+  #ac
+  {
+    background-color: red;
+    color: white;
+  }
+  .numtheme{
+    padding: 8px;
+    background: #3d3d3d;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 15px -10px white;
+    transition: 0.5s;
+  }
+  .numtheme:hover
+  {
+    box-shadow: inset 0px 0px 15px -3px white;
+  }
